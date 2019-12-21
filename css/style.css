@@ -10,7 +10,7 @@ img{
 	border: solid black;
 	border-radius: 30px;
 }
-h3{
+.title-gray{
 	color: #979797;
 }
 .icono{
@@ -30,19 +30,35 @@ h3{
 .information{
 	background-color: #fff;
 	height: auto;
-}
+	color: black;
 
+}
+.information a{
+	text-decoration: none;
+	color: black;
+}
 .information ul li{
 	margin-bottom: 10px;
 	list-style: none;
 
 }
-.information ul li:hover{
+.information ul li:hover, .information a:hover{
 	color: #5698f7;
+	cursor: pointer;
 
 }
 /* SECTION ABOUT ME */
 
 .skills{
 	background-color: #fff;
+}
+.education{
+	background-color: #fff;
+}
+.languajes{
+	background-color: #fff;
+}
+footer{
+	background-color: #000;
+	color: #e8e3e2;
 }
